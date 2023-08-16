@@ -39,7 +39,8 @@ export const Pagina1Screen = ({navigation}: Props) => {
           </Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={{...styles.botonGrande, backgroundColor: '#FF9427'}}>
+        <TouchableOpacity
+          style={{...styles.botonGrande, backgroundColor: '#FF9427'}}>
           <Text
             style={styles.botonGrandeText}
             onPress={() =>
